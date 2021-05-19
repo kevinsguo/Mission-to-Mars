@@ -142,10 +142,6 @@ url = 'https://marshemispheres.com/'
 
 browser.visit(url)
 
-
-# In[18]:
-
-
 # 2. Create a list to hold the images and titles.
 hemisphere_image_urls = []
 

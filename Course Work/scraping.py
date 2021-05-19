@@ -20,7 +20,7 @@ def scrape_all():
         "featured_image": featured_image(browser),
         "facts": mars_facts(),
         "last_modified": dt.datetime.now(),
-        "hemisphere_data": hemisphere_data(browser)
+        "hemisphere_data": hemisphere_list(browser)
     }
 
     # Stop webdriver and return data
